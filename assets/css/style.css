@@ -26,7 +26,6 @@ li, a, button {
     background-color: rgb(186, 186, 192);
 }
 
-
 .navLinks {
     list-style: none;
 }
@@ -36,3 +35,22 @@ li, a, button {
     margin: 20px;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardHeader {
+    font-size: 60px;
+    line-height: 3em;
+}
+
+.card{
+    text-align: center;
+    margin: 0;
+}
+p {
+    font-size: 20px;
+    margin-top: 25px;
+}
