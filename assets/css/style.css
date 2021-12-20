@@ -18,7 +18,7 @@ li, a, button {
     
 }
 
-header {
+.mainHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,12 +36,3 @@ header {
     margin: 20px;
 }
 
-.navLinks 
-.coverImage {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image:url("..\images\pocket-watch-1637396__340.jpg");
-    background-size: cover;
-    background-position: center;
-}
