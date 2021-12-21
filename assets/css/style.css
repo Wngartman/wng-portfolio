@@ -24,6 +24,7 @@ aside{
     background-color: gray;
     width: 20em;
     border-radius: 2em;
+    justify-content: center;
 }
 .mainHeader {
     display: flex;
@@ -47,6 +48,7 @@ aside{
     flex-direction: column;
     justify-content: space-around;
     margin-right:15em ;
+    
 }
 
 .cardHeader {
@@ -64,6 +66,8 @@ p {
 }
 
 .asideHeader {
-    display: flex;
-    margin: 2em;
+    display:inline-block;
+    height: 45px;
+    margin-top: 20px;
+    padding: 20px;
 }
