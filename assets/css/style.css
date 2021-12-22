@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin:0;
     padding:0;  
-    /* background-color: rgb(148, 148, 148); */
     font-family: "Poppins", sans-serif ;
 }
 
@@ -16,22 +15,46 @@ li, a, button {
     
 }
 
-aside{
+aside {
     display: flex;
-    float: right;
-    max-width: 20em;
-    height: 50em;
-    background-color: gray;
-    width: 20em;
-    border-radius: 2em;
-    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background: gray;
+    border: solid;
 }
+
+.asideHeader {
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    background: gray;
+}
+
+#profilePic{
+    width: 100px;
+    height:100px;
+    object-fit: cover;
+    object-position: 0px 0px;
+    border-style: solid;
+    margin-left: 1%;
+}
+
+#asideP {
+    font-size: 20px;
+    margin-top: 5px;
+    background: gray;
+}
+
 .mainHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
     background-color: rgb(186, 186, 192);
+    margin-bottom: 2%;
 }
 
 .navLinks {
@@ -45,29 +68,42 @@ aside{
 
 .projects {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-right:15em ;
-    
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
 }
-
 .cardHeader {
-    font-size: 60px;
-    line-height: 3em;
+    font-size: 40px;
+    margin-top: 10%;
 }
 
 .card{
-    text-align: center;
-    margin: 0;
+    display: flex;
+    margin: 2%;
+    border-style: solid;
+    justify-content: center;
+    
 }
 p {
     font-size: 20px;
     margin-top: 25px;
 }
 
-.asideHeader {
-    display:inline-block;
-    height: 45px;
-    margin-top: 20px;
-    padding: 20px;
+.foots{
+    display: inline-block;
+    justify-content: center;
+    list-style: none;
+    margin-left: 25%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(186, 186, 192);
+    margin-bottom: 2%;
 }
