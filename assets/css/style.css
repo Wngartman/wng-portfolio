@@ -1,12 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+/* Global selectors */
 *{
     box-sizing: border-box;
     margin:0;
     padding:0;  
     font-family: "Poppins", sans-serif ;
 }
+/* Header CSS container */
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(186, 186, 192);
+    margin-bottom: 2%;
+}
 
+/* The UL container CSS */
+.navLinks {
+    list-style: none;
+}
+
+/* THe CSS for the link */
+.navLinks li{
+    display: inline-block;
+    margin: 20px;
+}
+
+/* The text CSS for the button and links */
 li, a, button {
     font-size: 20px;
     font-weight: 500;
@@ -15,6 +36,7 @@ li, a, button {
     
 }
 
+/* The about section container */
 aside {
     display: flex;
     align-items: center;
@@ -26,6 +48,7 @@ aside {
     border: solid;
 }
 
+/* The header for the aside */
 .asideHeader {
     margin-left: 2%;
     display: flex;
@@ -33,6 +56,7 @@ aside {
     background: gray;
 }
 
+/* All of the CSS for the About Section Image */
 #profilePic{
     width: 100px;
     height:100px;
@@ -41,31 +65,14 @@ aside {
     border-style: solid;
     margin-left: 1%;
 }
-
+/* The paragraph CSS for the About section */
 #asideP {
     font-size: 20px;
     margin-top: 5px;
     background: gray;
 }
 
-.mainHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: rgb(186, 186, 192);
-    margin-bottom: 2%;
-}
-
-.navLinks {
-    list-style: none;
-}
-
-.navLinks li{
-    display: inline-block;
-    margin: 20px;
-}
-
+/* Projects CSS */
 .projects {
     display: flex;
     align-items: center;
@@ -76,11 +83,14 @@ aside {
     margin-right: auto;
     flex-wrap: wrap;
 }
+
+/* The header for the project card */
 .cardHeader {
     font-size: 40px;
     margin-top: 10%;
 }
 
+/* Each project card */
 .card{
     display: flex;
     margin: 2%;
@@ -88,17 +98,14 @@ aside {
     justify-content: center;
     
 }
+
+/* The paragraph for the projects (could be better) */
 p {
     font-size: 20px;
     margin-top: 25px;
 }
 
-.foots{
-    display: inline-block;
-    justify-content: center;
-    list-style: none;
-    margin-left: 25%;
-}
+/* CSS for the footer */
 footer{
     display: flex;
     justify-content: center;
@@ -106,4 +113,12 @@ footer{
     padding: 30px 10%;
     background-color: rgb(186, 186, 192);
     margin-bottom: 2%;
+}
+
+/* List for the footer in case I ever want to add anymore contacts */
+.foots{
+    display: inline-block;
+    justify-content: center;
+    list-style: none;
+    margin-left: 25%;
 }
