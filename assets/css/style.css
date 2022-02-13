@@ -3,22 +3,22 @@
 
 
 /* Global selectors */
-*{
+* {
     box-sizing: border-box;
-    margin:0;
-    padding:0;  
-    font-family: "Poppins", sans-serif ;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 /* Header CSS container */
-.mainHeader {
+/* .mainHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
     background-color: rgb(186, 186, 192);
     margin-bottom: 2%;
-}
+} */
 
 /* The UL container CSS */
 .navLinks {
@@ -26,19 +26,19 @@
 }
 
 /* THe CSS for the link */
-.navLinks li{
+/* .navLinks li {
     display: inline-block;
     margin: 20px;
-}
+} */
 
 /* The text CSS for the button and links */
-li, a, button {
+/* li, a, button {
     font-size: 20px;
     font-weight: 500;
     color: black;
     text-decoration: none;
-    
-}
+
+} */
 
 /* The about section container */
 aside {
@@ -46,8 +46,8 @@ aside {
     align-items: center;
     height: 200px;
     width: 75%;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     background: gray;
     border: solid;
 }
@@ -61,9 +61,9 @@ aside {
 }
 
 /* All of the CSS for the About Section Image */
-#profilePic{
+#profilePic {
     width: 100px;
-    height:100px;
+    height: 100px;
     object-fit: cover;
     object-position: 0px 0px;
     border-style: solid;
@@ -80,50 +80,41 @@ aside {
 /* Projects CSS */
 .projects {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* The header for the project card */
-.cardHeader {
+/* .cardHeader {
     font-size: 40px;
     margin-top: 10%;
-}
+} */
 
 /* Each project card */
-.card{
-    display: flex;
-    margin: 2%;
-    border-style: solid;
-    justify-content: center;
-    
+.card {
+    flex-grow: 4;
+
 }
 
 /* The paragraph for the projects (could be better) */
-p {
+/* p {
     font-size: 20px;
     margin-top: 25px;
-}
+} */
 
 /* CSS for the footer */
-footer{
+/* footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 30px 10%;
+    align-items: flex-end;
     background-color: rgb(186, 186, 192);
-    margin-bottom: 2%;
-}
+} */ 
 
 /* List for the footer in case I ever want to add anymore contacts */
-.foots{
+/* .foots {
     display: inline-block;
     justify-content: center;
     list-style: none;
     margin-left: 25%;
-}
+} */
